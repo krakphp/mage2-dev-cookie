@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <type name="Magento\Framework\View\Element\Js\Cookie">
+        <plugin name="allow_localhost" type="Krak\DevCookie\Plugin\Framework\AllowLocalhostCookiePlugin" sortOrder="1"/>
+    </type>
+</config>
